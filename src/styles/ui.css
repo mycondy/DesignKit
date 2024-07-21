@@ -1,0 +1,433 @@
+/* New UI CSS for DesignKit 2.0 */
+/* ---------------------------- */
+
+/* Body */
+
+body {
+  font: 12px sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+/* Header */
+
+#upper {
+  padding-left: 0px;
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(135deg, #E4F7FF 0%, #E5E4F2 100%);
+}
+
+.header {
+  padding-left: 20px;
+  display: flex;
+  vertical-align: middle;
+}
+
+/* Containers */
+
+#action {
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: #6187F0;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+#basic-cont {
+  text-align: left;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+.toggle-container {
+  width: 90%;
+  text-align: left;
+  margin-left: 25%;
+}
+
+#tab {
+  justify-content: center;
+}
+
+#tabs {
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+#content {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #262626;
+  min-height: 440px;
+}
+
+#parentContent {
+  display: grid;
+  width: 82%;
+  text-align: start;
+  padding-left: 35px;
+}
+
+#twoColContent {
+  display: flex;
+  width: 100%;
+  text-align: start;
+  padding-bottom: 5px;
+}
+
+#twoColContent .col-2 {
+  flex: 40%;
+  width: 30%;
+}
+
+#twoColContent .inp {
+  width: 140px;
+}
+
+#twoColContent .inpC {
+  width: 80px;
+  height: 42px;
+  border: none;
+  appearance: none;
+  background-color: #ededed;
+  cursor: pointer;
+  margin-left: -4px;
+  border-radius: 10px;
+}
+
+#twoColContent .inpC::-webkit-color-swatch {
+  border-radius: 5px;
+  border: none;
+}
+#twoColContent .inpD {
+  width: 155px;
+}
+
+#inner-content { 
+  width: 410px;
+  height: 355px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+#inner-colour-div {
+  display: flex;
+}
+
+/* Tabs */
+
+#Import, #Data, #Exports, #Helper, #Settings {
+  margin-right: 10px;
+}
+
+/* Buttons */
+
+.dialog-button {
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #414344;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-right: 30px;
+}
+.disabled-button {
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #414344;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-right: 30px;
+}
+
+.btnLong {
+  width: 92%;
+  height: 40px;
+}
+
+.btnLong2 {
+  width: 100%;
+  height: 40px;
+}
+
+#yaml-button {
+  display: inline;
+  color: #436FF6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 110px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 8px 26px;
+  background-color: #ffffff;
+  border-color: #436FF6;
+}
+
+#json-button {
+  display: inline;
+  color: #436FF6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 56px;
+  text-align: center;
+  padding: 8px 33px;
+  background-color: #ffffff;
+  border-color: #436FF6;
+  margin-bottom: 10px;
+}
+
+#canvas-button {
+  display: inline;
+  color: #436FF6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 38px;
+  text-align: center;
+  padding: 8px 54px;
+  background-color: #ffffff;
+  border-color: #436FF6;
+}
+
+#validate-button {
+  display: inline;
+  color: #436FF6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 88px;
+  text-align: center;
+  padding: 8px 38px;
+  background-color: #ffffff;
+  border-color: #436FF6;
+}
+
+#duplicate-button {
+  display: inline;
+  color: #436FF6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 92px;
+  text-align: center;
+  padding: 8px 34px;
+  background-color: #ffffff;
+  border-color: #436FF6;
+}
+
+#export-button {
+  display: inline;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 93px;
+  text-align: center;
+  padding: 8px 44px;
+  background-color: #436FF6;
+  border-color: #436FF6;
+}
+
+#template-button {
+  display: inline;
+  color: #436FF6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 33px;
+  text-align: center;
+  padding: 8px 38px;
+  background-color: #ffffff;
+  border-color: #436FF6;
+}
+
+#pdf-button {
+  display: inline;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 60px;
+  text-align: center;
+  padding: 8px 47px;
+  background-color: #436FF6;
+  border-color: #436FF6;
+}
+
+#list-button {
+  display: inline;
+  color: #436FF6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 98px;
+  text-align: center;
+  padding: 8px 34px;
+  background-color: #ffffff;
+  border-color: #436FF6;
+}
+
+#token-button {
+  background-color: #6187F0;
+  color: #ffffff;
+  height: 35px;
+  margin-top: -3px;
+}
+
+/* Labels */
+
+#lbl {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #262626;
+}
+
+#subheading {
+  color: #A4ABBD;
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+}
+
+#subheading2 {
+  color: #A4ABBD;
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  padding-left: 40px;
+}
+
+#small-text {
+  color: #323232;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+#float-right{
+  float: right;
+  margin-right: 28px;
+  color: #323232;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* TextArea,Inputs */
+
+.customInput {
+  height: 40px;
+}
+.longArea {
+  height: 100px;
+}
+
+.token-inp {
+  width: 60%;
+  margin-right: 10px;
+  height: 35px;
+}
+
+#float-sw-right{
+  float: right;
+  margin-right: 28px;
+  margin-top: -8px;
+}
+
+#colourInp {
+  border: none;
+  color: #A4ABBD;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: end;
+  width: 80px;
+  height: 40px;
+}
+
+/* File Picker */
+
+#filePicker {
+  opacity: 0;
+  width: 0;
+}
+
+.custom-file-upload {
+  display: inline;
+  padding: 10px 42px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 62px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-color: #436FF6;
+  border-style: solid;
+  border-width: 1px;
+  color: #436FF6;
+}
+
+/* Footer */
+
+#footer {
+  padding-bottom: 15px;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 10px;
+}
+
+#footerText {
+  font-size: 18px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #262626;
+}
+
+#link {
+  width: 60px;
+  height: 30px;
+  background-color: #6187F0;
+  color: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #6187F0;
+  padding: 5px;
+}
